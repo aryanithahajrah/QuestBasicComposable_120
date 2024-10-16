@@ -31,6 +31,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
+            Prak2PAM2Theme {
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                }
             }
         }
     }
