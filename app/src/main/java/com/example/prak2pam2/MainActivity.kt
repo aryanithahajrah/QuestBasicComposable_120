@@ -64,5 +64,9 @@ fun BasicLayout(modifier: Modifier = Modifier) {
 
         Text(text="Aryanitha Hajrah Mawaddah", color = Color.Red,
             style = TextStyle(fontSize = 20.sp, fontWeight = FontWeight.Bold))
+
+        Text("20220140120",
+            style = TextStyle(fontSize = 50.sp, fontWeight = FontWeight.Bold),
+            modifier = Modifier.padding(top = 10.dp))
     }
 }
