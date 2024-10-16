@@ -52,7 +52,10 @@ fun BasicLayout(modifier: Modifier = Modifier) {
             style = TextStyle(fontSize = 50.sp,
                 fontWeight = FontWeight.Bold))
 
+        Text(text = "Ini adalah halaman login")
+        Image(painter = painterResource(
+            id = R.drawable.umy
+        ),
 
     }
 }
-
