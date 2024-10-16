@@ -74,3 +74,11 @@ fun BasicLayout(modifier: Modifier = Modifier) {
             modifier = Modifier.padding(top = 40.dp).size(300.dp))
     }
 }
+
+@Preview(showBackground = true)
+@Composable
+fun GreetingPreview() {
+    Prak2PAM2Theme {
+        BasicLayout()
+    }
+}
