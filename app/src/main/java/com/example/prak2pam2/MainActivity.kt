@@ -33,6 +33,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Prak2PAM2Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    BasicLayout(modifier = Modifier.fillMaxSize())
                 }
             }
         }
